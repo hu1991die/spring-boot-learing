@@ -1,14 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>com.feizi</groupId>
-  <artifactId>Chapter01</artifactId>
+  <artifactId>Chapter06</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Chapter01 Maven Webapp</name>
+  <name>Chapter06 Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <description>The first Spring Boot project</description>
+  <description>Spring Boot 统一异常处理</description>
 
   <!--依赖spring-boot-starter-parent-->
   <parent>
@@ -50,16 +51,24 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+
+    <!--引入Thymeleaf模板引擎渲染Web页面-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
     <plugins>
-      <!--spring boot maven插件-->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <fork>true</fork>
+        </configuration>
       </plugin>
     </plugins>
-    <finalName>Chapter01</finalName>
+    <finalName>Chapter06</finalName>
   </build>
 </project>

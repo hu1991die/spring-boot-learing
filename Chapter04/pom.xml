@@ -43,6 +43,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
     </dependency>
 
     <!-- Spring Boot的web模块，引入这个模块就可以开发web项目了 -->
