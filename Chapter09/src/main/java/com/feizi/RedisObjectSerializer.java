@@ -1,7 +1,7 @@
 /*
 * Copyright (c) 2014 Javaranger.com. All Rights Reserved.
 */
-package com.feizi.service;
+package com.feizi;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.serializer.support.DeserializingConverter;

@@ -1,7 +1,7 @@
 /*
 * Copyright (c) 2014 Javaranger.com. All Rights Reserved.
 */
-package com.feizi.service;
+package com.feizi;
 
 import com.feizi.domain.User;
 import org.springframework.context.annotation.Bean;
