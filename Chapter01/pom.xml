@@ -7,8 +7,8 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>Chapter01 Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  <description>The first Spring Boot project</description>
+  <url>http://hu1991die.com</url>
+  <description>Spring-Boot 基本框架搭建</description>
 
   <!--依赖spring-boot-starter-parent-->
   <parent>
