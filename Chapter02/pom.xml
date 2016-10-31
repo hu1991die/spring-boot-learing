@@ -1,13 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>com.feizi</groupId>
   <artifactId>Chapter02</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
   <name>Chapter02 Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+  <url>http://hu1991die.com</url>
+  <description>Spring Boot 配置文件详解：自定义属性、随机数、多环境配置等</description>
 
   <!--依赖spring-boot-starter-parent-->
   <parent>
