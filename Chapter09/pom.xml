@@ -9,7 +9,7 @@
 
   <name>Chapter09 Maven Webapp</name>
   <url>http://hu1991die.com</url>
-  <description>Spring Boot使用NoSQL数据库-Redis</description>
+  <description>Spring Boot中使用NoSQL数据库-Redis</description>
 
   <!-- import spring-boot parent dependency-->
   <parent>
