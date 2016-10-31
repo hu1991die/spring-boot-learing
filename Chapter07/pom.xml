@@ -8,7 +8,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>Chapter07 Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+  <url>http://hu1991die.com</url>
   <description>Spring Boot中使用JdbcTemplate访问数据库</description>
 
   <!--依赖spring-boot-starter-parent-->
